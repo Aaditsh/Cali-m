@@ -12,7 +12,7 @@ if mailin == "mail":
     rec = input()
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('pythonmodmail@gmail.com', 'pythonmodmail21')
+    server.login('your email here', 'password here')
     server.sendmail('pythonmodmail@gmail.com',
                      rec ,
                     'Hi i am python mod mail made by sir Aadit sharma we are testing this so kindly provide feedback')
